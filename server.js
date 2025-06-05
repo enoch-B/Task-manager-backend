@@ -15,7 +15,7 @@ const saveTasks = async (tasks) => await fs.writeJson(TASK_FILE, tasks);
 
 // API Health Page
 app.get('/', (req, res) => {
-  res.send('<h2>✅ Task API is running.</h2>');
+  res.send('<h2>Task API is running.</h2>');
 });
 
 // Get all tasks
@@ -60,5 +60,5 @@ app.delete('/api/tasks/:id', async (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`🚀 Server running at http://localhost:${PORT}`);
+  console.log(`Server running at http://localhost:${PORT}`);
 });
