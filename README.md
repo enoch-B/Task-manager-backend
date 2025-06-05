@@ -35,5 +35,5 @@ Tsk-mnager-backend/
 ### 2. Clone the repository or download the code
 
 ```bash
-git clone https://github.com/your-username/task-api.git
-cd task-api
+git clone https://github.com/your-username/Task-manager-backend.git
+cd Task-manager-backend
